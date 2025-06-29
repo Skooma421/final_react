@@ -19,7 +19,7 @@ const Home = () => {
       <div className="about-section">
         <h2>Our Story</h2>
         <p>
-          Welcome to Sugar & Crumbs — a little dream that rose in a warm kitchen in 1997.
+          Welcome to Sugar & Crumbs — a little dream that rose in a warm kitchen in 1998.
           What started as a single cupcake stand has grown into a full-fledged bakery nestled in the heart of town.
           Our passion for homemade recipes, fresh ingredients, and grandma-level love in every bite is what keeps our ovens hot and our hearts full.
         </p>
