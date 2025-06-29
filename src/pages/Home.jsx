@@ -5,7 +5,6 @@ import bannerImg from '../assets/hero_banner.jpg';
 const Home = () => {
   return (
     <div className="home-page">
-      {/* Hero Banner */}
       <div
         className="hero-banner"
         style={{ backgroundImage: `url(${bannerImg})` }}
