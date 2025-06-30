@@ -112,7 +112,7 @@ body,
   border-radius: 1rem;
   overflow: clip;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
-  text-align: center;
+  
   transition: transform 0.2s ease;
   display: flex;
   flex-direction: column;
@@ -140,12 +140,14 @@ body,
   font-size: 1.2rem;
   margin-top: -1.7rem;
   color: #b22222;
+  margin-left: 0.6rem;
 }
 
 .menu-price {
-  font-size: 1rem;
+  font-size: 1.05rem;
   color: #444;
   margin-bottom: 0.25rem;
+  margin-left: 0.6rem;
 }
 
 .menu-img {
@@ -290,3 +292,41 @@ body,
     max-width: 180px;
   }
 }
+
+.loader-text {
+  font-size: 1.3rem;
+  color: #d6336c;
+  font-family: 'Georgia', serif;
+  margin-top: 1rem;
+  animation: blink 1.4s infinite;
+}
+
+.spinner {
+  width: 60px;
+  height: 60px;
+  border: 6px solid #ffd6e0;
+  border-top: 6px solid #d6336c;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;       
+  justify-content: center;      
+  align-items: center;         
+  height: 70vh;                 
+  text-align: center;
+}
+

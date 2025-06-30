@@ -5,7 +5,11 @@ import useDesserts from '../hooks/useDesserts';
 const Menu = () => {
   const { desserts, loading, error } = useDesserts();
 
-  if (loading) return <p className="menu-status">Loading...</p>;
+  if (loading) return (
+  <div className="loading-container">
+    <div className="spinner"></div>
+  </div>
+);
   if (error) return <p className="menu-status">Error: {error}</p>;
 
   return (

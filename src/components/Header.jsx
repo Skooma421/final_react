@@ -12,9 +12,29 @@ const Header = () => {
       </Link>
 
       <div className="nav-links">
-        <Link className={location.pathname === '/' ? 'active' : ''} to="/">Home</Link>
-        <Link className={location.pathname === '/menu' ? 'active' : ''} to="/menu">Menu</Link>
-        <Link className={location.pathname === '/contact' ? 'active' : ''} to="/contact">Contact</Link>
+        <Link
+  className={location.pathname === '/' ? 'active' : ''}
+  to="/"
+  aria-current={location.pathname === '/' ? 'page' : undefined}
+>
+  Home
+</Link>
+
+<Link
+  className={location.pathname === '/menu' ? 'active' : ''}
+  to="/menu"
+  aria-current={location.pathname === '/menu' ? 'page' : undefined}
+>
+  Menu
+</Link>
+
+<Link
+  className={location.pathname === '/contact' ? 'active' : ''}
+  to="/contact"
+  aria-current={location.pathname === '/contact' ? 'page' : undefined}
+>
+  Contact
+</Link>
       </div>
     </nav>
   );
