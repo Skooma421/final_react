@@ -1,10 +1,22 @@
+html, body {
+  overflow-x: hidden;
+}
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  box-sizing: border-box;
   padding: 2rem 2rem;
   background-color: #ffe6f0;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header,
+.footer {
+  width: 100vw;
+  left: 0;
+  right: 0;
 }
 
 .logo-link {
@@ -69,6 +81,8 @@
   text-align: center;
   padding: 2rem;
   font-size: 0.9rem;
+  width: 100%;
+  box-sizing: border-box;
   color: #999;
   background-color: #fff0f5;
   margin-top: 2rem;
@@ -106,13 +120,13 @@ body,
 }
 
 .menu-block {
-  width: 260px;
-  height: 340px;
+  width: 100%;
+  max-width: 260px;
+  height: auto;
   background-color: #fff;
   border-radius: 1rem;
   overflow: clip;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
-  
   transition: transform 0.2s ease;
   display: flex;
   flex-direction: column;
@@ -138,13 +152,13 @@ body,
 .menu-name {
   font-weight: bold;
   font-size: 1.2rem;
-  margin-top: -1.7rem;
+  margin-top: -0.8rem;
   color: #b22222;
   margin-left: 0.6rem;
 }
 
 .menu-price {
-  font-size: 1.05rem;
+  font-size: 1rem;
   color: #444;
   margin-bottom: 0.25rem;
   margin-left: 0.6rem;
