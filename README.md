@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# 🍰 Sugar & Crumbs Bakery Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a delightful dessert-themed React app built as a **final project** for react course✨
 
-## Available Scripts
+This responsive web app showcases key concepts and skills learned during the course, including:
 
-In the project directory, you can run:
+- Fetching and displaying dynamic data from a mock API using custom React hooks and Axios
 
-### `npm start`
+- Implementing smooth navigation with React Router across multiple pages
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Managing user input and persistence with LocalStorage in a Contact Us form
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Designing a clean, responsive UI that adapts to various screen sizes
 
-### `npm test`
+- Applying best practices in component structure, state management, and styling
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+⚛️React for building the user interface with reusable components.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🧪React Router to handle navigation between pages smoothly.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📡Axios to fetch data from the mock API.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🧠Custom React Hooks for managing data fetching and state logic.
 
-### `npm run eject`
+🧁MockAPI.io as a simple backend to serve dessert data.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+💿LocalStorage to save user input in the contact form.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🎨CSS for styling and responsive design without extra libraries.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🧁 Screenshots
+### 🏠 Home Page  
+![Home Page - Hero banner and bakery introduction](https://github.com/user-attachments/assets/07e03490-80fd-4591-90f4-e8b3d5b43381)
+### 🍰 Menu Page  
+![Menu Page - Dessert listings with images and prices](https://github.com/user-attachments/assets/c6e41ad0-99f0-4c9a-94ee-c2cd8e21f39f)
+### 💌 Contact Page  
+![Contact Page - User message form with inputs](https://github.com/user-attachments/assets/6329f2d6-90cd-49db-abe2-4a53c08bf52a)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Getting Started
 
-## Learn More
+To run this project locally:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the repository  
+   `git clone https://github.com/Skooma421/final_react`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Install dependencies  
+   `npm install`
 
-### Code Splitting
+3. Start the development server  
+   `npm start`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The app will be available at [http://localhost:3000](http://localhost:3000)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
